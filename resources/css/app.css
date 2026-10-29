@@ -7,3 +7,14 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+
+@layer base {
+    body {
+        background-image: radial-gradient(ellipse at top, rgb(249 115 22 / 0.08), transparent 55%);
+        background-attachment: fixed;
+    }
+
+    ::selection {
+        background-color: rgb(249 115 22 / 0.25);
+    }
+}
